@@ -55,8 +55,3 @@ ISS_assign3/Q1/
 - Font: Cooper with Arial fallback
 - Color scheme: Black for headings, grey for body text
 - White text on image backgrounds for contrast
-
-### Responsive Design
-- Adapts to different screen sizes
-- Stack layout on mobile devices
-- Image sizes adjust for smaller screens
