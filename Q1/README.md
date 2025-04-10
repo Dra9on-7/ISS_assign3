@@ -1,7 +1,7 @@
 # Personal Webpage Project
 
 ## Overview
-This project is a personal webpage created as part of the ISS assignment. It features a responsive design with sections for personal information, hometown details, and educational background.
+This project is a personal webpage created as part of the ISS assignment. It features a responsive design with sections for personal information, hometown details, and educational background. All implemented on a single webpage.
 
 ## Structure
 
