@@ -1,0 +1,149 @@
+/* Base styles */
+body {
+    font-family: "Cooper", Arial, sans-serif;
+    margin: 10px;
+    background-image: url('assets/images/background1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #666; 
+}
+
+/* Header and Footer */
+header, footer {
+    text-align: center;
+    background-image: url('assets/images/back2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 8px 0;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #000; 
+    margin: 10px 0;
+}
+
+p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul {
+    margin: 8px 0;
+    padding-left: 20px;
+}
+
+/* Section Layout */
+section {
+    margin-bottom: 0;
+    background-color: transparent;
+    padding: 10px;
+}
+
+body > section {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+/* About Section */
+.personal-info, .hometown-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.profile {
+    width: 400px;
+    border-radius: 70%;
+    margin: 0 0 10px 20px;
+}
+
+.profile-label {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    body > section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .personal-info, .hometown-info {
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 300px;
+        float: none;
+        margin: 10px auto;
+    }
+
+    .gallery img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .profile-container {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
